@@ -1,0 +1,17 @@
+Source: bulk-extractor
+Section: forensics
+Priority: optional
+Maintainer: Erik Kristensen <erik@erikkristensen.com>
+Build-Depends: debhelper (>= 7), autotools-dev
+Standards-Version: 1.4.0.beta2 
+
+Package: bulk-extractor 
+Section: forensics 
+Architecture: any
+Depends: flex, libewf-dev
+Description: A computer forensics tool that scans a disk image, a file, or a directory of files and extracts useful information 
+ A computer forensics tool that scans a disk image, a file, or a directory of files and extracts useful information 
+ without parsing the file system or file system structures. The results can be easily inspected, parsed, or processed 
+ with automated tools. bulk_extractor also created a histograms of features that it finds, as features that are more 
+ common tend to be more important. The program can be used for law enforcement, defense, intelligence, and 
+ cyber-investigation applications. 
