@@ -1,5 +1,7 @@
 bulk-extractor (1.4.0-beta2) stable; urgency=low
 
   * Auto-generated
+  * Debian package maintained by Erik Kristensen
+  * Bulk Extractor by https://github.com/simsong/bulk_extractor
 
- -- Erik Kristensen <erik@erikkristensen.com>  Tue, 05 Mar 2013 21:19:20 +0100
+ -- Erik Kristensen <erik@erikkristensen.com>  Tue, 13 Aug 2013 00:31:00 +0400
