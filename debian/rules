@@ -10,3 +10,7 @@ export DH_OPTIONS
 
 %:
 	dh  $@
+
+override_dh_usrlocal:
+  cp java_gui/BEViewer usr/local/bin
+	cp java_gui/BEViewer.jar usr/local/bin
